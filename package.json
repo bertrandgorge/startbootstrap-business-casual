@@ -1,5 +1,5 @@
 {
-    "title": "Business Casual",
+    "title": "Bastide en location XVIIe",
     "name": "startbootstrap-business-casual",
     "version": "4.0.0",
     "description": "A casual HTML website theme for businesses built with Bootstrap",
@@ -17,7 +17,7 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Bastide XVIIe",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
