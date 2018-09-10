@@ -20,6 +20,7 @@
     <!-- Custom styles for this template -->
     <link href="css/business-casual.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
   </head>
 
   <body>
@@ -245,6 +246,21 @@
       </div>
     </section>
 
+    <section class="page-section cta" id="photos">
+      <div class="container">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-lower">Galerie PHOTOS</span>
+        </h2>        
+        <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+        </div>
+      </div>
+    </section>
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
@@ -252,10 +268,55 @@
       </div>
     </footer>
 
+    <div id="links">
+        <a href="img/maison_invites/ext_1.jpg" title="Extérieurs"></a>
+        <a href="img/maison_invites/ext_2.jpg" title="Extérieurs"></a>
+        <a href="img/maison_invites/ext_3.jpg" title="Extérieurs"></a>
+        <a href="img/maison_invites/ext_4.jpg" title="Extérieurs - Espace BBQ"></a>
+        <a href="img/maison_invites/ext_5.jpg" title="Extérieurs - Espace BBQ"></a>
+        <a href="img/maison_invites/ext_6.jpg" title="Extérieurs - La piscine"></a>
+        <a href="img/maison_invites/ext_7.jpg" title="Extérieurs"></a>
+        <a href="img/maison_invites/ext_8.jpg" title="Extérieurs - Boulodrôme"></a>
+
+        <a href="img/aloe/aloe.jpg" title="Suite Aloé"></a>
+        <a href="img/aloe/aloe_2.jpg" title="Suite Aloé"></a>
+
+        <a href="img/mimosa/mimosa.jpg" title="Suite Mimosa"></a>
+        <a href="img/mimosa/sdd.jpg" title="Suite Mimosa - La salle de douche"></a>
+        <a href="img/mimosa/detail_1.jpg" title="Suite Mimosa (détail)"></a>
+        <a href="img/mimosa/detail_2.jpg" title="Suite Mimosa (détail)"></a>
+
+        <a href="img/bougainvillier/bougainvillier.jpg" title="Suite Bougainvillier"></a>
+        <a href="img/bougainvillier/sdd.jpg" title="Suite Bougainvillier - La salle de douche"></a>
+        <a href="img/bougainvillier/canape.jpg" title="Suite Bougainvillier"></a>
+        <a href="img/bougainvillier/vue_2.jpg" title="Suite Bougainvillier"></a>
+
+        <a href="img/communs/communs.jpg" title="Espaces communs"></a>
+        <a href="img/communs/communs_2.jpg" title="Espaces communs"></a>
+        <a href="img/communs/communs_3.jpg" title="Espaces communs"></a>
+        <a href="img/communs/communs_detail.jpg" title="Espaces communs"></a>
+        <a href="img/communs/communs_detail_2.jpg" title="Espaces communs"></a>
+        <a href="img/communs/communs_espace_diner.jpg" title="Espaces communs"></a>
+        <a href="img/communs/escalier.jpg" title="Espaces communs"></a>
+   
+
+    </div>    
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script src="js/blueimp-gallery.min.js"></script>
+
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>   
   </body>
 
 </html>
