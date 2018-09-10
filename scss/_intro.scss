@@ -1,11 +1,11 @@
 .intro {
   position: relative;
   @media (min-width: 992px) {
-    .intro-img {
+    .intro-img-right {
       width: 75%;
       float: right;
     }
-    .intro-text {
+    .intro-text-left {
       left: 0;
       width: 60%;
       margin-top: 3rem;
@@ -17,10 +17,43 @@
         bottom: -2rem;
       }
     }
+
+    .intro-img-left {
+      width: 75%;
+      float: left;
+      max-width: 600px;
+    }
+    .intro-text-right {
+      right: 0;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute;
+      .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }    
   }
+
   @media (min-width: 1200px) {
-    .intro-text {
+    .intro-text-left {
       width: 45%;
     }
+
+    .intro-text-right {
+      width: 45%;
+    }
+
   }
+
+ @media (max-width: 991px) {
+    .intro-img-left {
+      max-width: 100%;
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+  }  
 }

@@ -65,7 +65,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.93);
 }
 
 #mainNav {
@@ -112,17 +112,34 @@ p {
 }
 
 @media (min-width: 992px) {
-  .intro .intro-img {
+  .intro .intro-img-right {
     width: 75%;
     float: right;
   }
-  .intro .intro-text {
+  .intro .intro-text-left {
     left: 0;
     width: 60%;
     margin-top: 3rem;
     position: absolute;
   }
-  .intro .intro-text .intro-button {
+  .intro .intro-text-left .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+  .intro .intro-img-left {
+    width: 75%;
+    float: left;
+    max-width: 600px;
+  }
+  .intro .intro-text-right {
+    right: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  .intro .intro-text-right .intro-button {
     width: 100%;
     left: 0;
     position: absolute;
@@ -131,8 +148,19 @@ p {
 }
 
 @media (min-width: 1200px) {
-  .intro .intro-text {
+  .intro .intro-text-left {
     width: 45%;
+  }
+  .intro .intro-text-right {
+    width: 45%;
+  }
+}
+
+@media (max-width: 991px) {
+  .intro .intro-img-left {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
   }
 }
 
@@ -202,14 +230,38 @@ p {
   font-style: italic;
 }
 
-.list-hours .list-hours-item.today {
+.list-hours .list-hours-item.saison {
   font-weight: bold;
   color: #e6a756;
 }
 
+.list-hours .list-hours-item .dates-saison {
+  font-weight: normal;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.list-hours .list-hours-item .description {
+  width: 40%;
+}
+
+.list-hours .list-hours-item .sub-description {
+  font-size: 0.9rem;
+  color: #9e9c9c;
+}
+
+.list-hours .list-hours-item .basse-saison, .list-hours .list-hours-item .moyenne-saison, .list-hours .list-hours-item .haute-saison {
+  width: 20%;
+  text-align: center;
+}
+
+.list-hours .list-hours-item .sub-price {
+  font-size: 0.8rem;
+  color: #9e9c9c;
+}
+
 @media (min-width: 992px) {
   .list-hours {
-    width: 50%;
     font-size: 1.1rem;
   }
 }

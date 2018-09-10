@@ -5,13 +5,36 @@
     padding-bottom: .25rem;
     margin-bottom: 1rem;
     font-style: italic;
-    &.today {
+    &.saison {
       font-weight: bold;
       color: $primary;
     }
+
+    .dates-saison {
+      font-weight: normal;
+      color: black;
+      font-size: 0.9rem;
+    }
+
+    .description {
+       width: 40% 
+    }
+    .sub-description { 
+      font-size: 0.9rem;
+      color: #9e9c9c;
+    }
+
+    .basse-saison, .moyenne-saison, .haute-saison {
+      width: 20%;
+      text-align: center; 
+    }
+
+    .sub-price {
+      font-size: 0.8rem;
+      color: #9e9c9c;    
+    }
   }
   @media(min-width: 992px) {
-    width: 50%;
     font-size: 1.1rem;
   }
 }
