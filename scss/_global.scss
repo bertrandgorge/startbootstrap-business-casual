@@ -63,4 +63,8 @@ p {
 
 .bg-faded {
   background-color: fade-out($white, 0.07);
+
+  a {
+    color: $primary;
+  }
 }
