@@ -13,7 +13,7 @@
       }
       &.active {
         .nav-link {
-          color: $primary;
+          color: lighten($primary, 10%);
         }
       }
     }
@@ -29,7 +29,7 @@
         }
         &.active {
           .nav-link:hover {
-            color: $primary;
+            color: lighten($primary, 10%);
           }
         }
       }

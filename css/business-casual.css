@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -69,7 +69,7 @@ p {
 }
 
 .bg-faded a {
-  color: #e6a756;
+  color: #80716c;
 }
 
 #mainNav {
@@ -78,7 +78,7 @@ p {
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #80716c;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -87,7 +87,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #998b86;
 }
 
 @media (min-width: 992px) {
@@ -98,7 +98,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #998b86;
   }
 }
 
@@ -171,7 +171,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(128, 113, 108, 0.9);
 }
 
 .cta .cta-inner {
@@ -228,7 +228,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba(128, 113, 108, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -236,7 +236,7 @@ p {
 
 .list-hours .list-hours-item.saison {
   font-weight: bold;
-  color: #e6a756;
+  color: #80716c;
 }
 
 .list-hours .list-hours-item .dates-saison {
@@ -251,7 +251,7 @@ p {
 
 .list-hours .list-hours-item .sub-description {
   font-size: 0.9rem;
-  color: #9e9c9c;
+  color: #807e7e;
 }
 
 .list-hours .list-hours-item .basse-saison, .list-hours .list-hours-item .moyenne-saison, .list-hours .list-hours-item .haute-saison {
@@ -261,7 +261,7 @@ p {
 
 .list-hours .list-hours-item .sub-price {
   font-size: 0.8rem;
-  color: #9e9c9c;
+  color: #807e7e;
 }
 
 @media (min-width: 992px) {
@@ -279,11 +279,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #80716c !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #80716c !important;
 }
 
 .btn {
@@ -291,13 +291,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #80716c;
+  border-color: #80716c;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #645955;
+  border-color: #645955;
 }
 
 .font-weight-light {
