@@ -102,6 +102,12 @@ p {
   }
 }
 
+@media (max-width: 1181px) {
+  .logo-osmeea-large {
+    display: none;
+  }
+}
+
 .btn-xl {
   font-weight: 700;
   font-size: 0.8rem;

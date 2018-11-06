@@ -18,6 +18,8 @@
       }
     }
   }
+
+
   @media (min-width: 992px) {
     .navbar-nav {
       .nav-item {
@@ -36,3 +38,10 @@
     }
   }
 }
+
+@media (max-width: 1181px) {
+  .logo-osmeea-large {
+      display: none;
+  }
+}
+
