@@ -8,28 +8,53 @@
 
 
 <url>
-  <loc>https://le.mas.osmeea.com/</loc>
-  <lastmod>2018-09-10T14:36:26+00:00</lastmod>
+  <loc>https://le.mas.osmeea.com/en/</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://le.mas.osmeea.com/villa.html</loc>
-  <lastmod>2018-09-10T14:36:26+00:00</lastmod>
+  <loc>https://le.mas.osmeea.com/en/villa.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://le.mas.osmeea.com/maison_invites.html</loc>
-  <lastmod>2018-09-10T14:36:26+00:00</lastmod>
+  <loc>https://le.mas.osmeea.com/en/maison_invites.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://le.mas.osmeea.com/infos_pratiques.html</loc>
-  <lastmod>2018-09-10T14:36:26+00:00</lastmod>
+  <loc>https://le.mas.osmeea.com/en/infos_pratiques.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://le.mas.osmeea.com/contacts-tarifs.html</loc>
-  <lastmod>2018-09-10T14:36:26+00:00</lastmod>
+  <loc>https://le.mas.osmeea.com/en/contacts-tarifs.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://le.mas.osmeea.com/fr/</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://le.mas.osmeea.com/fr/villa.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://le.mas.osmeea.com/fr/maison_invites.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://le.mas.osmeea.com/fr/infos_pratiques.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://le.mas.osmeea.com/fr/contacts-tarifs.html</loc>
+  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
