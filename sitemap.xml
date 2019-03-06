@@ -6,57 +6,70 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
-  <loc>https://le.mas.osmeea.com/en/</loc>
+  <loc>https://le.mas.osmeea.com/en/index.html</loc>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="fr-FR"
+       href="https://le.mas.osmeea.com/fr/index.html"/>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="en"
+       href="https://le.mas.osmeea.com/en/index.html"/>
   <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://le.mas.osmeea.com/en/villa.html</loc>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="fr-FR"
+       href="https://le.mas.osmeea.com/fr/villa.html"/>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="en"
+       href="https://le.mas.osmeea.com/en/villa.html"/>  
   <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://le.mas.osmeea.com/en/maison_invites.html</loc>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="fr-FR"
+       href="https://le.mas.osmeea.com/fr/maison_invites.html"/>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="en"
+       href="https://le.mas.osmeea.com/en/maison_invites.html"/>  
   <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://le.mas.osmeea.com/en/infos_pratiques.html</loc>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="fr-FR"
+       href="https://le.mas.osmeea.com/fr/infos_pratiques.html"/>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="en"
+       href="https://le.mas.osmeea.com/en/infos_pratiques.html"/>   
   <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://le.mas.osmeea.com/en/contacts-tarifs.html</loc>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="fr-FR"
+       href="https://le.mas.osmeea.com/fr/contacts-tarifs.html"/>
+  <xhtml:link 
+       rel="alternate"
+       hreflang="en"
+       href="https://le.mas.osmeea.com/en/contacts-tarifs.html"/>   
   <lastmod>2019-03-06T17:28:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://le.mas.osmeea.com/fr/</loc>
-  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://le.mas.osmeea.com/fr/villa.html</loc>
-  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://le.mas.osmeea.com/fr/maison_invites.html</loc>
-  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://le.mas.osmeea.com/fr/infos_pratiques.html</loc>
-  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://le.mas.osmeea.com/fr/contacts-tarifs.html</loc>
-  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
 
 </urlset>
