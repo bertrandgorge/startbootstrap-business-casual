@@ -1,3 +1,9 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
+ * Copyright 2013-2021 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
 body {
   font-family: 'Lora';
   background: url("../img/bg.jpg");
@@ -282,6 +288,31 @@ p {
 
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
+}
+
+.footer .social-links {
+  margin-left: 4px;
+}
+
+.footer .social-links a {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer .social-links a:hover {
+  text-decoration: none;
+}
+
+.footer .social-links a span {
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  height: 25px;
+  width: 25px;
+  line-height: 27px;
+  margin: 0 3px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .text-primary {

@@ -20,19 +20,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://le.mas.osmeea.com/en/villa.html</loc>
-  <xhtml:link 
-       rel="alternate"
-       hreflang="fr-FR"
-       href="https://le.mas.osmeea.com/fr/villa.html"/>
-  <xhtml:link 
-       rel="alternate"
-       hreflang="en"
-       href="https://le.mas.osmeea.com/en/villa.html"/>  
-  <lastmod>2019-03-06T17:28:40+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://le.mas.osmeea.com/en/maison_invites.html</loc>
   <xhtml:link 
        rel="alternate"
